@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      let calcMain = "";
+      // const one = calcMain + '1';
+      // const two = '2';
+      // const three = '3';
+      // const plus = " + ";
+      // const equal = eval(calcMain);
+    </script>
+  </head>
+  <body>
+    <p>
+      <button onclick="calcMain += 1; console.log(calcMain)">1</button>
+      <button onclick="calcMain += 2; console.log(calcMain)">2</button>
+      <button onclick="calcMain += 3; console.log(calcMain)">3</button>
+    </p>
+
+    <p>
+      <button onclick="calcMain += 4; console.log(calcMain)">4</button>
+      <button onclick="calcMain += 5; console.log(calcMain)">5</button>
+      <button onclick="calcMain += 6; console.log(calcMain)">6</button>
+    </p>
+    <p>
+      <button onclick="calcMain += 7; console.log(calcMain)">7</button>
+      <button onclick="calcMain += 8; console.log(calcMain)">8</button>
+      <button onclick="calcMain += 9; console.log(calcMain)">9</button>
+    </p>
+
+    <p>
+      <button onclick="calcMain += ' + '; console.log(calcMain)">+</button>
+      <button onclick="calcMain += ' - '; console.log(calcMain)">-</button>
+      <button onclick="calcMain += ' * '; console.log(calcMain)">*</button>
+      <button onclick="calcMain += ' / '; console.log(calcMain)">/</button>
+      <p>
+        
+          <button onclick="console.log(eval(calcMain))">=</button>
+        </p>
+    </p>
+  </body>
+</html>

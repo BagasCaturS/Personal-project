@@ -1,0 +1,148 @@
+/* Signup CSS */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #2a432ad4, #70ba70d4);
+}
+
+.container {
+  width: 500px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  background-color: #fff;
+}
+
+.signup-top {
+  padding: 40px 40px 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-top::before {
+  content: "";
+  position: absolute;
+  height: 50px;
+  bottom: -20px;
+  left: 0;
+  right: 0;
+  transform: skewY(-3deg);
+  background-color: #fff;
+}
+h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 32px;
+  color: #70ba70d4;
+}
+.input-wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+}
+
+p {
+  font-size: 13px;
+  color: #4e585f;
+}
+
+span {
+  color: #70ba70d4;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+input {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 0;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #4e585f;
+  transition: 500ms ease all;
+}
+input:focus {
+  outline: none;
+  box-shadow: 0 1px 0 0 #70ba70d4;
+  border-color: #70ba70d4;
+}
+
+input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+  margin-right: 16px;
+}
+input[type="checkbox"]:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: none;
+}
+button {
+  cursor: pointer;
+  padding: 15px 60px;
+  border-radius: 30px;
+  border: none;
+  font-weight: 300;
+  color: #fff;
+  background-color: #70ba70d4;
+  margin-right: 16px;
+  transition: 500ms ease all;
+}
+
+button:hover {
+  background-color: #5b975bd4;
+  transform: scale(0.98);
+}
+
+.signup-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #70ba70d4;
+  padding: 60px 40px 40px;
+  color: #fff;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+ul {
+  display: flex;
+  margin-top: 16px;
+  list-style: none;
+}
+
+li {
+  margin-left: 16px;
+  margin-right: 16px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+i {
+  transition: 500ms ease all;
+}
+
+i:hover {
+  color: grey;
+}

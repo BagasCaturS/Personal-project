@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+span {
+  color: #ff297b;
+}
+body {
+  font-family: "Kumbh sans", sans-serif;
+background-color: #C3CADC;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding: 3em;
+  background-color: #F9FAFF;
+  display: flex;
+  border-radius: 14px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 1em;
+}
+
+.top > h3 {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.middle-feelings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.icon-feelings {
+  display: flex;
+  min-width: 75px;
+  max-width: 75px;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  flex-direction: column;
+  border-radius: 6px;
+  background-color: white;
+  border: 1px solid rgba(79, 79, 79, 0.208);
+  gap: 6px;
+}
+label{
+  cursor: pointer;
+}
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  height: 26px;
+  width: 26px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px rgb(172, 172, 172) solid;
+  display: flex;
+  border-radius: 0.5em;
+  outline: none;
+  justify-content: center;
+  align-items: center;
+}
+input[type="checkbox"]::after {
+  font-family: "Font awesome 6 free";
+  content: "\f00c";
+  font-weight: 900;
+  font-size: 16px;
+  color: white;
+  display: none;
+}
+
+input[type="checkbox"]:hover {
+  background-color: #b7b7b7;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #f670a3;
+}
+input[type="checkbox"]:checked::after {
+  background-color: #f670a3;
+  display: block;
+}
+
+
+.icon-feelings > i {
+  font-size: 28px;
+}
+.icon-feelings:hover {
+  box-shadow: 0px 2px 6px #f670a3;
+}
+.comments {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1em;
+}
+.comments > p{
+  margin-bottom: 8px;
+}
+.checkbox-bottom {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.checkbox-select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+  gap: 4px;
+  margin-top: 2em;
+}
+
+.button > button {
+  padding: 10px 14px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+}
+.button > .submit {
+  color: white;
+  background-color: #f670a3;
+}
+
+textarea {
+  border-radius: 6px;
+  border: 2px solid #C3CADC;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock-paper-scissor</title>
+
+    <script>
+        let compMove = '';
+        
+        let result = '';
+        let randomNumber = Math.random();
+        </script>
+  </head>
+  <body>
+      <button
+      onclick=" 
+      
+      if (randomNumber >= 0 && randomNumber <1 / 3) {
+          compMove = 'rock';
+        }
+        else if (randomNumber >= 1 / 3 && randomNumber < 2 / 3) {
+            compMove = 'paper';
+        }
+        else if (randomNumber >= 2 / 3 && randomNumber < 1) {
+            compMove = 'Scissor';
+        }
+
+        
+        if (compMove === 'rock') {
+            result = 'Tie.';
+            console.log(compMove);
+            alert (result);
+        }
+        else if (compMove === 'paper') {
+            result = 'You lose.';
+            console.log(compMove);
+            alert (result);
+        }
+        else if (compMove === 'scissor') {
+            result = 'You win.';
+            console.log(compMove);
+            alert (result);
+        }
+        ">Rock
+    </button>
+    <button
+    onclick=" 
+    //   const randomNumber = Math.random();
+      
+      if (randomNumber >= 0 && randomNumber <1 / 3) {
+          compMove = 'rock';
+        }
+        else if (randomNumber >= 1 / 3 && randomNumber < 2 / 3) {
+            compMove = 'paper';
+        }
+        else if (randomNumber >= 2 / 3 && randomNumber < 1) {
+            compMove = 'Scissor';
+        }
+
+
+        if (compMove === 'rock') {
+            result = 'You lose.';
+            console.log(compMove);
+            alert (result);
+        }
+        else if (compMove === 'paper') {
+            result = 'You win.';
+            console.log(compMove);
+            alert (result);
+        }
+        else if (compMove === 'scissor') {
+            result = 'Tie.';
+            console.log(compMove);
+            alert (result);
+        }
+        ">scissor
+    </button>
+    <button
+      onclick=" 
+      
+        if (randomNumber >= 0 && randomNumber <1 / 3) {
+          compMove = 'rock';
+        }
+        else if (randomNumber >= 1 / 3 && randomNumber < 2 / 3) {
+            compMove = 'paper';
+        }
+        else if (randomNumber >= 2 / 3 && randomNumber < 1) {
+            compMove = 'Scissor';
+        }
+
+
+        if (compMove === 'rock') {
+            result = 'You win.';
+            console.log(compMove);
+            alert (result);
+        }
+        else if (compMove === 'paper') {
+            result = 'tie.';
+            console.log(compMove);
+            alert (result);
+        }
+        else if (compMove === 'scissor') {
+            result = 'You lose.';
+            console.log(compMove);
+            alert (result);
+        }
+        ">paper
+    </button>
+  </body>
+</html>

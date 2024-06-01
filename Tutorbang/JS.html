@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        
+            <script>
+                let var0 = 0;
+                let var1 = 5;
+                let var2 = 1;
+                let hasil = var1 + var2;
+                console.log(hasil);
+                console.log(hasil + 3);
+                console.log(hasil - 3);
+        
+                // EXCERCISE
+                let cost = 0;
+                const tax = 0.1;
+                const nama = "Bagas Catur Santoso";
+                const coffe = "$5";
+                const bagels = "$3";
+                const soup = "$9";
+                let totalCost = cost + tax;
+
+        
+            </script>
+            
+    </head>
+<body>
+    <button class="button" onclick="console.log('cart Quantity:', var0);">Cart Quantity</button>
+
+    <button onclick="var0 += 1", console.log('cart Quantity:', var0); >Add Quantity</button>
+
+    <button onclick="var0 += 2">+2</button>
+    <button onclick="var0 += 3">+3</button>
+    <button onclick="var0 += 4">+4</button>
+    <button onclick="var0 += 5">+5</button>
+    <button onclick="var0 -= 1">Remove item</button>
+    <button onclick="var0 -= 2">Remove item 2</button>
+    <button onclick="var0 -= 3">Remove item 3</button>
+    <button onclick="
+    console.log('Cart was reseted');
+    console.log('Cart Quantity = ', var0 -= var0);">Reset Cart</button>
+
+    <button onclick="console.log(nama);">nama</button>
+
+    <button onclick="cost += 5;">Coffe</button>
+    <button onclick="cost += 3;">Bagels</button>
+    <button onclick="cost += 9;">Soup</button>
+    <button onclick="console.log('Your cost to pay is: ', cost + (cost*tax));">Cost</button>
+
+    
+
+</body>
+</html>

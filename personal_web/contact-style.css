@@ -1,0 +1,272 @@
+* {
+  /* border-top: 10px solid #1098ad; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.new-font {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  background-color: #2a432ad4;
+}
+
+.container {
+  position: relative;
+  box-sizing: border-box;
+  width: 1200px;
+  /* margin-left: auto;
+      margin-right: auto; */
+  margin: 0 auto;
+  background-color: #94bea1;
+  /* padding-bottom: 1000px; */
+}
+
+.main-header {
+  background-color: rgb(206, 196, 156);
+  box-shadow: inset 0px -1px #6d6d6d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-main {
+  /* float: left; */
+  font-weight: 500;
+  margin: 0 0 10px 20px;
+  font-size: 50px;
+  /* margin-top: 20px; */
+  /* margin-left: 5px; */
+}
+
+.link-flex-nav {
+  display: flex;
+}
+
+.link-flex {
+  color: black;
+  display: flex;
+  /* margin-right: 2rem; */
+  text-decoration: none;
+  font-size: 25px;
+  padding: 20px;
+}
+
+.link-flex-nav a:link {
+  display: inline-block;
+  transition: color 0.2s, box-shadow 0.2s;
+  transition-duration: 0.2s, 0.2s;
+  transition-timing-function: ease, ease;
+  transition-delay: 0s, 0.1s;
+  transition-property: color, box-shadow;
+}
+
+.link-flex-nav a:hover {
+  box-shadow: inset 0px -4px #454645;
+  color: #377337;
+}
+/* BODY */
+
+.img-1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-text-overlay {
+  background-color: #323232;
+  position: relative;
+  display: inline-block;
+}
+
+.text-overlay {
+  font-family: "Kumbh Sans", sans-serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.text-overlay h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.text-overlay p {
+  font-size: 16px;
+}
+
+.black-gap {
+  padding: 20px 20px 40px 20px;
+  background-color: #323232;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-in-black-gap {
+  color: white;
+}
+
+.black-gap h2 {
+  font-size: 32px;
+  text-transform: capitalize;
+}
+
+.black-gap p {
+  margin-top: 1rem;
+}
+
+.middle-text {
+  font-weight: 700;
+  text-align: center;
+  padding: 60px 0 40px 0;
+  font-size: 28px;
+  text-transform: capitalize;
+}
+
+.cards-container {
+  display: flex;
+  margin-bottom: 2rem;
+  justify-content: space-around;
+}
+
+.cards {
+  padding: 16px;
+  /* margin: 40p; */
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+  border-radius: 9%;
+  background-color: #ffffff;
+  box-shadow: 2px 4px 10px #4d4d4d;
+  transition: color 0.2s, box-shadow 0.2s, transform 0.2s;
+  transition-duration: 0.2s, 0.2s, 0.2s;
+  transition-timing-function: ease, ease, ease-in-out;
+  transition-delay: 0s, 0.1s, 0.1s;
+  transition-property: color, box-shadow, transform;
+}
+
+.cards:hover {
+  transform: translateY(-1rem);
+  box-shadow: 12px 16px 26px #4d4d4d;
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+  /* box-shadow: 0px 0px 0px; */
+}
+
+.cards-top {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.cards-top h1 {
+  margin-bottom: 1rem;
+}
+
+.cards-bottom {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 8px;
+  padding-top: 4px;
+  box-shadow: inset 0px 1px;
+}
+.cards-bottom-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cards-bottom span {
+  font-size: 48px;
+}
+.profile-name {
+  font-size: 16px;
+}
+.button-flex {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.join-us-button {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: black;
+  padding: 20px 40px;
+  border-radius: 28px;
+  box-shadow: 2px 4px 10px #4d4d4d;
+  transition: color 0.2s, box-shadow 0.2s;
+  transition-duration: 0.2s, 0.2s;
+  transition-timing-function: ease, ease;
+  transition-delay: 0s, 0.1s;
+  transition-property: color, box-shadow;
+}
+
+.join-us-button:hover {
+  box-shadow: 5px 8px 14px #4d4d4d;
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+}
+
+/* FOOOTER */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #85aa91;
+  width: auto;
+  margin: 0 auto;
+  padding: 1rem 0rem 4rem 0rem;
+}
+
+.h1-footer-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.h1-footer-1 h1 {
+  margin-bottom: 20px;
+}
+
+.p-footer {
+  margin-top: 10px;
+  margin-right: 10px;
+  transition: color 200ms, box-shadow 200ms;
+  transition-duration: 200ms, 200ms;
+  transition-timing-function: ease, ease;
+  transition-delay: 0ms, 100ms;
+  transition-property: color, box-shadow;
+}
+
+/* Footer - END */
+.h1-footer-1 p:hover {
+  color: #4c6855;
+  cursor: pointer;
+  box-shadow: 0 2px black;
+  transition: box-shadow ease 200ms;
+}
+
+.credit {
+  text-align: center;
+}
+
+.credit::after {
+  content: "\00a9 Bagas Catur Santoso";
+}
